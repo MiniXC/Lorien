@@ -1,2 +1,3 @@
 lastsession.*
 __pycache__
+.env
