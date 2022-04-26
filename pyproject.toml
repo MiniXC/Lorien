@@ -1,0 +1,24 @@
+[project]
+name = ""
+version = ""
+description = ""
+authors = [
+    {name = "Christoph Minixhofer", email = "christoph.minixhofer@gmail.com"},
+]
+dependencies = [
+    "discord.py[voice]>=1.7.3",
+    "python-dotenv>=0.20.0",
+    "youtube-dl>=2021.12.17",
+    "beautifulsoup4>=4.11.1",
+    "requests>=2.27.1",
+    "youtube-search-python>=1.6.4",
+    "gpt-2-simple>=0.8.1",
+]
+requires-python = "==3.8.*"
+license = {text = "MIT"}
+
+[tool.pdm]
+
+[build-system]
+requires = ["pdm-pep517>=0.12.0"]
+build-backend = "pdm.pep517.api"
