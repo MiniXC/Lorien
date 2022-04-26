@@ -11,9 +11,7 @@ dependencies = [
     "youtube-dl>=2021.12.17",
     "beautifulsoup4>=4.11.1",
     "requests>=2.27.1",
-    "youtube-search-python>=1.6.4",
-    "gpt-2-simple>=0.8.1",
-]
+    "youtube-search-python>=1.6.4"]
 requires-python = "==3.8.*"
 license = {text = "MIT"}
 
